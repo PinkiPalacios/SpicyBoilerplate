@@ -1,0 +1,46 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rulesDirectory": ["tslint-rules/tslintx"],
+  "rules": {
+    "semicolon": [true, "never"],
+    "quotemark": [true, "single", "jsx-double"],
+    "trailing-comma": false,
+    "curly": [true, "ignore-same-line"],
+    "max-classes-per-file": false,
+    "no-var-requires": false,
+    "max-line-length": {
+      "options": [120]
+    },
+    "new-parens": true,
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-conditional-assignment": true,
+    "no-consecutive-blank-lines": false,
+    "object-literal-sort-keys": false,
+    "jsx-no-lambda": false,
+    "no-console": {
+      "severity": "warning",
+      "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+    },
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "underscore-privates": true
+  },
+  "jsRules": {
+    "no-shadowed-variable": false,
+    "max-line-length": {
+      "options": [120]
+    },
+    "semicolon": [true, "never"],
+    "quotemark": [true, "single", "jsx-double"],
+    "no-console": {
+      "severity": "warning",
+      "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+    }
+  }
+}

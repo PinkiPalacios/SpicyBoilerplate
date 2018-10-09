@@ -1,0 +1,8 @@
+{
+  // "eslint.packageManager": "yarn",
+  "tslint.autoFixOnSave": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "javascript.validate.enable": true,
+  "tslint.jsEnable": true,
+  "tslint.exclude": "node_modules/**/*"
+}
