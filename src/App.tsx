@@ -5,7 +5,7 @@ import logo from './logo.svg'
 
 class App extends React.Component {
   public render() {
-    const a = this._test('jojo')
+    const a = this._test('ohurewfwiurefhjwek')
     return (
       <div className="App">
         <header className="App-header">
@@ -13,8 +13,8 @@ class App extends React.Component {
           <h1 className="App-title">Welcome to React </h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to {a}
-          reload.
+          Toregwr get started, edit <code>src/App.tsx</code> and save to {a}
+          relergergoad.
         </p>
       </div>
     )
