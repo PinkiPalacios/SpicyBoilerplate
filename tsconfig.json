@@ -10,7 +10,7 @@
     "moduleResolution": "node",
     "noEmitHelpers": true,
     "noImplicitReturns": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "allowJs": true,
     "outDir": "build/dist",
     "sourceMap": true,

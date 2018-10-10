@@ -5,23 +5,21 @@ import logo from './logo.svg'
 
 class App extends React.Component {
   public render() {
-    const a = this._test('ohurewfwiurefhjwek')
+    console.log('proccess', process)
+    const a = { b: 239462783567384 }
+    const { b } = a
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React </h1>
+          <h1 className="App-title">{this.test()} </h1>
         </header>
-        <p className="App-intro">
-          Toregwr get started, edit <code>src/App.tsx</code> and save to {a}
-          relergergoad.
-        </p>
+        {b}
+        <p className="App-intro">{process.env.REACT_APP_TEST_ENV}</p>
       </div>
     )
   }
-  private _test = (jojo: string) => {
-    return jojo
-  }
+  public test = () => 'wasjnkjrfew'
 }
 
 export default App
